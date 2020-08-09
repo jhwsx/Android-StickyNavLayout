@@ -1,15 +1,18 @@
 package com.zhy.stickynavlayout;
 
 import android.os.Bundle;
+
+import com.zhy.stickynavlayout.view.SimpleViewPagerIndicator;
+
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
 
-import com.zhy.stickynavlayout.view.SimpleViewPagerIndicator;
-
-
+/**
+ * https://blog.csdn.net/lmj623565791/article/details/52204039
+ */
 public class MainActivity extends FragmentActivity
 {
 	private String[] mTitles = new String[] { "简介", "评价", "相关" };
