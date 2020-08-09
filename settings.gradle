@@ -1,1 +1,3 @@
 include ':app'
+include ':library_zhy_StickyNavLayout'
+include ':sample_zhy_StickyNavLayout'
